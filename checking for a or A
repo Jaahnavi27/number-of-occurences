@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int count=0,length,i;
+char s[25];
+scanf("%s",s);
+for(i=0;i<25;i++)
+{
+if(s[i]=='a' || s[i]=='A')
+count++;
+}
+printf("Number of occurences of 'a' or 'A' : %d",count);
+}
